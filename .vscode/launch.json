@@ -32,7 +32,6 @@
     },
     {
       "name": "Chrome Attach to packager",
-      "program": "${workspaceRoot}/.vscode/launchReactNative.js",
       "type": "chrome",
       "request": "attach",
       "port": 9222,
@@ -40,12 +39,12 @@
     },
     {
       "name": "Debug in Exponent",
+      "cwd": "${workspaceFolder}",
       "program": "${workspaceRoot}/.vscode/launchReactNative.js",
       "type": "reactnative",
       "request": "launch",
       "platform": "exponent",
       "sourceMaps": true,
-      "outDir": "${workspaceRoot}/.vscode/.react"
     }
   ]
 }
