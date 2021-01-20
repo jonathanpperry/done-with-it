@@ -23,14 +23,15 @@ export default function App() {
       }}
     >
       <View
-        style={{ backgroundColor: "dodgerblue", width: 150, height: 150 }}
+        style={{
+          backgroundColor: "dodgerblue",
+          flexShrink: 1,
+          width: 400,
+          height: 100,
+        }}
       />
-      <View style={{ backgroundColor: "gold", width: 150, height: 150 }} />
-      <View style={{ backgroundColor: "tomato", width: 150, height: 150 }} />
-      <View style={{ backgroundColor: "gray", width: 150, height: 150 }} />
-      <View
-        style={{ backgroundColor: "greenyellow", width: 150, height: 150 }}
-      />
+      <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
+      <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
     </SafeAreaView>
   );
 }
