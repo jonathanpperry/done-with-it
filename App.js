@@ -3,10 +3,14 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
 export default function App() {
+  const handlePress = () => console.log("Text clicked");
+
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello World!</Text>
-      <StatusBar style="auto" />
+      <Text numberOfLines={1} onPress={handlePress}>
+        Hello React Native a really really long text. Now I wanna make this even
+        longer and see what happens!
+      </Text>
     </SafeAreaView>
   );
 }
