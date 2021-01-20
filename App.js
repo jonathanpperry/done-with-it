@@ -16,14 +16,21 @@ export default function App() {
         backgroundColor: "#fff",
         flex: 1,
         flexDirection: "row",
-        justifyContent: "space-around",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        flexWrap: "wrap",
       }}
     >
       <View
-        style={{ backgroundColor: "dodgerblue", width: 100, height: 100 }}
+        style={{ backgroundColor: "dodgerblue", width: 150, height: 150 }}
       />
-      <View style={{ backgroundColor: "gold", width: 100, height: 100 }} />
-      <View style={{ backgroundColor: "tomato", width: 100, height: 100 }} />
+      <View style={{ backgroundColor: "gold", width: 150, height: 150 }} />
+      <View style={{ backgroundColor: "tomato", width: 150, height: 150 }} />
+      <View style={{ backgroundColor: "gray", width: 150, height: 150 }} />
+      <View
+        style={{ backgroundColor: "greenyellow", width: 150, height: 150 }}
+      />
     </SafeAreaView>
   );
 }
